@@ -414,6 +414,13 @@ ui.escape-room-detatils__list .details-item img {
   animation: borderAnimation 6s ease-in-out infinite;
 }
 
+.wpb_row.border-bottom {
+  border-bottom: 4px solid;
+  border-image: linear-gradient(45deg, #163e64, #c8e3fc, #2c7dca);
+  border-image-slice: 1;
+  animation: borderAnimation 6s ease-in-out infinite;
+}
+
 .c-box .nectar-fancy-box span.arrow {
   display: none !important;
 }
@@ -1886,6 +1893,298 @@ a.btn.btn-xp.xp-learn {
   font-weight: bold !important;
 }
 
+.section-food.no-gradient .row-bg.viewport-desktop.using-bg-color:before {
+  content: none;
+}
+
+.corporate.choose-events .row-bg.viewport-desktop.using-bg-color:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #0037de 0%,
+    rgba(0, 55, 222, 0.3) 32.87%,
+    rgba(0, 55, 222, 0.2) 60.87%,
+    rgba(11, 22, 35, 0) 100%
+  );
+  top: -30%;
+  left: -25%;
+}
+
+.corporate.choose-events .view-packages {
+  margin-top: 50px;
+}
+
+.flickity-slider .wpb_row.arcade-xp {
+  background-position: center center;
+  background-size: cover;
+  border-radius: 15px;
+  padding-top: 400px !important;
+  padding-bottom: 80px !important;
+}
+.flickity-slider .wpb_row.arcade-xp:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: linear-gradient(
+    0deg,
+    #163e64 -7.22%,
+    rgba(0, 255, 184, 0) 60.82%
+  );
+  top: 0;
+}
+
+.flickity-slider .wpb_text_column.wpb_content_element.arcade-xp {
+  text-align: center;
+}
+
+.flickity-slider .wpb_text_column.wpb_content_element.arcade-xp h4 {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.25px;
+  margin-bottom: 30px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.flickity-slider .wpb_text_column.wpb_content_element.arcade-xp p {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.packages .gradient-subtitle {
+  background: linear-gradient(90deg, #4ca3e4 0%, #d0eafe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.98px;
+  text-transform: uppercase;
+}
+
+.wpb_tab .wpb_row .row-bg.viewport-desktop.using-bg-color:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #0037de 0%,
+    rgba(0, 55, 222, 0.3) 32.87%,
+    rgba(0, 55, 222, 0.2) 60.87%,
+    rgba(11, 22, 35, 0) 100%
+  );
+}
+
+.wpb_row.pricing-card {
+  padding: 200px 30px 80px;
+}
+.flickity-slider .wpb_row.pricing-card {
+  background-position: top center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.flickity-slider .wpb_row.pricing-card:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: 15px;
+  background: linear-gradient(0deg, #163e64 0%, rgba(22, 62, 100, 0) 100%);
+}
+
+.wpb_row.pricing-card h4 {
+  color: #fff;
+  font-family: "Inter Tight";
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.wpb_row.pricing-card .nectar-responsive-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.54px;
+}
+
+.wpb_row.pricing-card h4 {
+  color: #fff;
+  font-family: "Inter Tight";
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.wpb_row.pricing-card .nectar-responsive-text {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.54px;
+}
+
+.wpb_row.pricing-card .nectar-responsive-text.price {
+  color: #fff;
+  font-size: 30px !important;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0.9px;
+}
+
+.wpb_row.pricing-card .nectar-responsive-text.price .title {
+  font-size: 18px !important;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0.54px;
+}
+
+.pricing-card a.enquiry.btn {
+  border-radius: 28px;
+  border: 1px solid #87ffff;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(2px);
+  width: 100%;
+  display: block;
+  color: #87ffff;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  padding: 15px;
+  letter-spacing: 0.6px;
+}
+
+.pricing-card .iwithtext .iwt-icon {
+  display: block;
+  position: relative;
+  margin: 0 auto !important;
+  width: fit-content;
+}
+
+.pricing-card .iwithtext {
+  margin: 0 auto;
+  margin-top: 30px;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  cursor: pointer;
+}
+
+.pricing-card .iwithtext .iwt-text {
+  padding: 0;
+  color: #87ffff;
+  text-align: center;
+  font-family: "Inter Tight";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+.wpb_row.pricing-card {
+  transition: all 0.3e ease-in-out;
+}
+
+.wpb_row.pricing-card.close .vc_column-inner .wpb_wrapper {
+  max-height: 290px;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.wpb_row.pricing-card.open {
+  border: 2px solid #87ffff;
+}
+
+.wpb_row.pricing-card.close .vc_column-inner .wpb_wrapper:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 90px);
+  height: 200px;
+  left: -60px;
+  bottom: -100px;
+  border-radius: 15px;
+  background: linear-gradient(0deg, #163e64 0%, rgba(22, 62, 100, 0) 100%);
+}
+.wpb_row.pricing-card.open .iwithtext {
+  bottom: -90px;
+}
+
+.flickity-viewport {
+  margin-top: 30px !important;
+}
+
+.packages-tab li.tab-item {
+  border-radius: 28px;
+  border: 1px solid #87ffff;
+  background: transparent !important;
+  backdrop-filter: blur(2px) !important;
+  min-width: 298px;
+  text-align: center;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.packages-tab li.tab-item.active-tab,
+.packages-tab li.tab-item:hover {
+  background: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(2px);
+}
+
+.packages-tab ul.wpb_tabs_nav.ui-tabs-nav.clearfix {
+  padding-bottom: 70px;
+}
+
+.packages-tab li.tab-item a {
+  color: #d2d6d6;
+  text-align: center;
+  font-family: "Inter Tight";
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+.packages-tab li.tab-item.active-tab a {
+  color: #87ffff;
+}
+.tabbed[data-color-scheme="accent-color"][data-style="default"]
+  li:not(.cta-button)
+  .active-tab {
+  background-color: transparent;
+  border-color: transparent;
+}
+
 @media screen and (min-width: 980px) {
   #header-space {
     display: none;
@@ -1916,5 +2215,74 @@ a.btn.btn-xp.xp-learn {
 
   .current-menu-item .menu-title-text::after {
     content: none !important;
+  }
+  .packages-tab ul.wpb_tabs_nav.ui-tabs-nav.clearfix {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/**ONLY IPAD**/
+@media screen and (max-width: 980px) and (min-width: 640px) {
+  .wpb_row.pricing-card {
+    padding: 120px 10px 60px;
+  }
+}
+
+/**MOBILE AND IPAD **/
+
+@media screen and (max-width: 980px) {
+  .nectar-flickity.nectar-carousel[data-column-padding="20px"] .inner-wrap {
+    padding: 0;
+  }
+  .wpb_row.pricing-card h4 {
+    font-size: 32px;
+    line-height: 1.3em;
+  }
+  .wpb_row.pricing-card p {
+    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.7em;
+  }
+  .wpb_row.pricing-card .nectar-responsive-text.price {
+    font-size: 20px !important;
+    line-height: 1.3em !important;
+  }
+  .pricing-card a.enquiry.btn {
+    padding: 10px;
+    font-size: 13px;
+  }
+  .wpb_row.pricing-card.open .iwithtext {
+    bottom: -75px;
+  }
+}
+
+/**ONLY MOBILE CSS**/
+@media screen and (max-width: 640px) {
+  .section-title h2 {
+    font-size: 26px;
+    line-height: 1.3em;
+  }
+  .wpb_row.pricing-card {
+    padding: 120px 10px 60px;
+  }
+  .wpb_row.pricing-card h4 {
+    font-size: 26px;
+    line-height: 1.3em;
+  }
+
+  .wpb_row.pricing-card .nectar-responsive-text {
+    font-size: 14px;
+    line-height: 1.3em;
+  }
+
+  .nectar-responsive-text.price {
+    font-size: 24px !important;
+    line-height: 1.3em;
+  }
+
+  .wpb_row.pricing-card .nectar-responsive-text.price .title {
+    font-size: 16px !important;
+    line-height: 1.3em;
   }
 }
