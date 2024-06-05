@@ -2687,7 +2687,9 @@ a.view-offer {
 }
 
 .wpb_text_column.hero-btn.x-cube a.view-offer:before,
-.wpb_text_column.hero-btn.x-cube a.view-offer:after {
+.wpb_text_column.hero-btn.x-cube a.view-offer:after,
+.wpb_text_column.hero-btn.superbowl a.view-offer:after,
+.wpb_text_column.hero-btn.superbowl a.view-offer:before {
   background: url("/wp-content/themes/salient-child/images/dcaret-black.png")
     no-repeat;
   background-size: contain;
@@ -2833,6 +2835,75 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
 .hero-btn.delta a.view-offer {
   background: #ff4e00;
 }
+
+.custom-slider.hero-slider .slide.superbowl img.banner-logo {
+  max-width: 840px;
+}
+.custom-slider.hero-slider .slide.superbowl .slide_inner {
+  padding-top: 250px;
+}
+
+.hero-slider-widget .slide.superbowl a.enquire-btn {
+  background: linear-gradient(90deg, #e7f5ffcc, #ef383acc, #cafc3c00);
+}
+
+.hero-btn.superbowl a.view-offer {
+  color: #0b1623;
+  background: #cafc3c;
+}
+
+.homepage .hero-slider-widget .slide.delta h2.banner-heading {
+  max-width: 740px;
+}
+
+.hero-slider-widget a.video {
+  display: flex;
+  gap: 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  max-width: 120px;
+  text-align: center;
+  border-radius: 75px;
+  padding: 9px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+}
+
+.hero-slider-widget .watch {
+  margin-bottom: 25px;
+}
+
+.hero-slider-widget .watch a img {
+  width: 20px !important;
+  height: 25px !important;
+}
+
+.hero-slider-widget p.bottom-text {
+  max-width: 530px;
+}
+
+.homepage .hero-btn .wpb_wrapper {
+  max-width: 275px;
+}
+
+.homepage .hero-btn a.view-offer {
+  background: #0037de;
+}
+
+.gift.gradient-bottom > .row-bg-wrap:before {
+    background: linear-gradient(0deg, #0037DE 0%, rgba(11, 22, 35, 0) 100%);
+}
+
+.gift.gradient-bottom > .row-bg-wrap:after {
+    background: linear-gradient(180deg, #0037DE 0%, rgba(11, 22, 35, 0) 100%);
+}
+
+.gift.gradient-top .row-bg.viewport-desktop.using-bg-color:after {
+    background: radial-gradient(50% 50% at 50% 50%, #0037DE 0%, rgba(0, 55, 222, 0.3) 32.87%, rgba(0, 55, 222, 0.2) 60.87%, rgba(11, 22, 35, 0) 100%);
+}
+
 
 @media screen and (min-width: 980px) {
   .experience-row.hangry .disco .nectar-fancy-box .inner {
