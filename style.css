@@ -1041,7 +1041,7 @@ body[data-button-style="slightly_rounded_shadow"] input[type="submit"]:hover {
 
 .book-online .people {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   margin-right: 10px;
 }
@@ -2963,6 +2963,18 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
   transition: all 0.3s ease-in-out;
 }
 
+.book-online .info-card p {
+  text-align: left;
+}
+.book-online .action {
+  align-items: center;
+  display: flex;
+}
+
+.mb-5 {
+  margin-bottom: 50px;
+}
+
 /*ONLY LARGE DESKTOP*/
 
 @media screen and (min-width: 1600px) {
@@ -2971,7 +2983,7 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
   }
 }
 @media screen and (min-width: 980px) {
-  .flickity-viewport {
+  .social-feed .flickity-viewport {
     min-height: 450px;
   }
   .gift .iwithtext {
@@ -3156,6 +3168,47 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
   .book-online > div:not(:last-child) {
     margin-right: 10%;
   }
+  #footer-widgets p.follow-title {
+    margin-bottom: 29px;
+    margin-top: 11px;
+  }
+  .hero-superbowl img.abs {
+    max-width: 300px;
+  }
+  img.img-with-animation.skip-lazy.bowl {
+    max-width: 650px;
+  }
+  .dukpin-delight .wpb_wrapper {
+    margin-left: 50px !important;
+  }
+  .img-with-aniamtion-wrap.position_desktop_absolute.top_position_desktop_0px.right_position_desktop_0px {
+    margin-top: -72px;
+  }
+  .superbowl .img-with-animation.skip-lazy.clock-item-bottom-img {
+    margin-top: -20px;
+  }
+  .custom-slider.hero-slider .slide.arcade .slide_inner {
+    padding-bottom: 200px;
+  }
+  .wpb_text_column.wpb_content_element.vc_custom_1716980564930.section-title {
+    max-width: 550px !important;
+  }
+  .clock-item.arcade-xp .iwithtext {
+    display: inline-flex;
+    width: 50%;
+    margin-left: 0px;
+  }
+  .arcade-card-box
+    .nectar-fancy-box[data-style="image_above_text_underline"]
+    .text {
+    padding: 120px 0px 0px;
+  }
+  .arcade-card-box .nectar-fancy-box.nectar-underline.using-img.aspect-1-1 {
+    min-height: 455px;
+  }
+  .arcade-card .section-title h2 {
+    font-size: 58px;
+  }
 }
 
 /**ONLY IPAD**/
@@ -3210,6 +3263,41 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
     margin-top: 50px;
     display: inline-block;
     width: 100%;
+  }
+  .clock-item.superbowl .wpb_text_column.wpb_content_element.pricing {
+    max-width: 49%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+  .superbowl span.gradient-text {
+    font-size: 36px;
+    line-height: 1.4em;
+  }
+  .clock-item.superbowl .section-title h2 {
+    font-size: 36px;
+    line-height: 1.4em;
+  }
+  .superbowl .img-with-animation.skip-lazy.clock-item-bottom-img {
+    margin-top: -20px;
+  }
+  .superbowl.quirky-bowling .wpb_text_column.wpb_content_element.pricing {
+    margin-left: 0px;
+    max-width: 33%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    display: inline-block;
+    width: 100%;
+  }
+  .clock-item.arcade-xp .iwithtext {
+    max-width: 47%;
+  }
+  .arcade-card-box .nectar-fancy-box.nectar-underline.using-img.aspect-1-1 {
+    min-height: 490px;
+  }
+  .arcade-card-box
+    .nectar-fancy-box[data-style="image_above_text_underline"]
+    .text {
+    padding: 135px 20px 25px;
   }
 }
 
@@ -3372,6 +3460,18 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
   .wpb_text_column.wpb_content_element.hero-btn {
     min-width: unset;
   }
+
+  img.img-with-animation.skip-lazy.bowl {
+    z-index: -1;
+  }
+
+  .dukpin-delight .wpb_wrapper {
+    margin-left: 50px !important;
+    margin-bottom: 50px !important;
+  }
+  img.img-with-animation.skip-lazy.abs {
+    z-index: -1;
+  }
 }
 
 /**ONLY MOBILE CSS**/
@@ -3522,5 +3622,70 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
   .hero-slider-widget .slide:after {
     width: 330px;
     height: 53px;
+  }
+  .wpb_content_element.pricing p {
+    font-size: 16px;
+  }
+  .wpb_content_element.pricing .price {
+    font-size: 36px;
+  }
+  .superbowl span.gradient-text {
+    font-size: 28px;
+  }
+  .superbowl .img-with-animation.skip-lazy.clock-item-bottom-img {
+    margin-top: -10px;
+  }
+  .dukpin-delight .wpb_wrapper {
+    margin-left: 0px !important;
+    margin-bottom: 160px !important;
+    padding: 15px;
+  }
+  img.img-with-animation.skip-lazy.bowltwo {
+    max-width: 270px;
+  }
+  .superbowl.quirky-bowling .wpb_text_column.wpb_content_element.pricing {
+    margin-left: 0px;
+  }
+  .superbowl.quirky-bowling
+    .wpb_text_column.wpb_content_element.pricing
+    :first-child {
+    margin-top: 50px;
+  }
+  .vc_row .row_col_wrap_12 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .flickity-slider
+    .inner_row.wpb_row.arcade-xp
+    .vc_column-inner
+    > .wpb_wrapper {
+    position: absolute;
+    bottom: 50px;
+  }
+
+  .flickity-slider .inner_row.wpb_row.arcade-xp .vc_column-inner {
+    position: relative;
+    padding-top: 400px !important;
+    padding-bottom: 40px !important;
+  }
+  .flickity-slider .wpb_row.arcade-xp {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .clock-item.arcade-xp .iwithtext {
+    width: 100%;
+  }
+  .arcade-card .section-title h2 {
+    font-size: 36px;
+    line-height: 1.3em;
+  }
+  .wpb_text_column.wpb_content_element.para p {
+    font-size: 16px;
+    line-height: 1.7em;
+  }
+  .arcade-card-box span.desc {
+    font-size: 16px;
+    line-height: 1.7em;
   }
 }
