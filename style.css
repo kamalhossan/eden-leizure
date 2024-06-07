@@ -2990,7 +2990,7 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
     margin-right: 30px;
   }
   .experience-row.hangry .disco .nectar-fancy-box .inner {
-    padding-top: 185px;
+    padding-top: 140px;
   }
   .wpb_row.kids-menus .nectar-fancy-box.using-img .text {
     min-height: 320px;
@@ -3209,6 +3209,9 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
   .arcade-card .section-title h2 {
     font-size: 58px;
   }
+  .excitement-inner-col .nectar-fancy-box .inner h2 {
+    padding-top: 239px;
+  }
 }
 
 /**ONLY IPAD**/
@@ -3299,6 +3302,9 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
     .text {
     padding: 135px 20px 25px;
   }
+  .wpb_content_element.pricing.delta {
+    max-width: 229px;
+  }
 }
 
 /**MOBILE AND IPAD **/
@@ -3336,7 +3342,7 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
   }
   .clock-item .iwithtext {
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 0px;
     width: 45%;
     margin-left: 0;
   }
@@ -3687,5 +3693,28 @@ body:not([data-header-format="left-header"]) #top .sf-menu li ul {
   .arcade-card-box span.desc {
     font-size: 16px;
     line-height: 1.7em;
+  }
+  .arcade-card .row-bg.viewport-desktop.using-bg-color:after {
+    content: none;
+  }
+  img.img-with-animation.arcade-abs {
+    display: none;
+  }
+  .kids-explore .kids.clock-item .iwithtext .iwt-icon,
+  .ambers-explore .kids.clock-item .iwithtext .iwt-icon {
+    left: 45% !important;
+  }
+  .excitement-inner-col .disco .nectar-fancy-box .inner h2 {
+    font-size: 34px;
+    line-height: 1.3em;
+  }
+  .c-box.hangry .nectar-fancy-box .inner {
+    padding-top: 0px;
+  }
+  .wpb_row.c-box.hangry .nectar-fancy-box {
+    padding: 30px !important;
+  }
+  .custom-slider.hero-slider .slide_inner {
+    padding-top: 200px;
   }
 }
