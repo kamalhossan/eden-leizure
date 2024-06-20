@@ -3564,6 +3564,22 @@ body:not([data-header-format="left-header"]) #header-outer .sf-menu li ul {
 .has-global-section.delta-strike .section-food .row-bg.using-bg-color:before {
   background: linear-gradient(180deg, #ff4e00, #ff4e00, #0b1623, #0b162300);
 }
+.has-global-section.arcade-xp .section-food .row-bg.using-bg-color:before {
+  background: linear-gradient(180deg, #00ffb8, #26896d80, #0b162300, #0b162300);
+}
+.has-global-section.kareoke .section-food .row-bg.using-bg-color:before {
+  background: linear-gradient(180deg, #b67dfe, #b67dfe80, #0b162300, #0b162300);
+}
+.has-global-section.dart-club .section-food .row-bg.using-bg-color:before {
+    background: linear-gradient(180deg, #479afc, #479afc80, #0b162300, #0b162300);
+}
+.has-global-section.x-cube .section-food .row-bg.using-bg-color:before {
+    background: linear-gradient(180deg, #ffff00, #ffff0080, #0b162300, #0b162300);
+}
+.has-global-section.no-gradient .section-food .row-bg.using-bg-color:before {
+    content: none;
+}
+
 
 .has-global-section .excitement-inner-col .disco .nectar-fancy-box .inner h2 {
   padding-top: 315px;
@@ -4568,7 +4584,7 @@ body:not([data-header-format="left-header"]) #header-outer .sf-menu li ul {
 
   .flickity-slider .inner_row.wpb_row.arcade-xp .vc_column-inner {
     position: relative;
-    padding-top: 400px !important;
+    padding-top: 300px !important;
     padding-bottom: 40px !important;
   }
   .flickity-slider .wpb_row.arcade-xp {
@@ -4756,6 +4772,9 @@ body:not([data-header-format="left-header"]) #header-outer .sf-menu li ul {
   }
   .wp-block-media-text__content p {
     font-size: 15px !important;
+  }
+  .hero-slider .slide-item.arcade .slide_inner {
+    height: 65vh;
   }
 }
 
