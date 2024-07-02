@@ -2747,7 +2747,7 @@ a.btn.btn-xp.xp-learn {
   transform: translate(-50%, 0px);
 }
 
-.hero-slider-widget .slide-item:after {
+.hero-slider-widget .hero-slider:after {
   content: "";
   position: absolute;
   width: 520px;
@@ -2759,7 +2759,59 @@ a.btn.btn-xp.xp-learn {
   transform: translate(-50%, 0px);
   background-size: contain;
   z-index: 1;
+  background-repeat: no-repeat;
 }
+
+.hero-slider-widget.superbowl .hero-slider:after {
+    background: url("/wp-content/themes/salient-child/images/sup-bottom.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.hero-slider-widget.delta .hero-slider:after {
+    background: url("/wp-content/themes/salient-child/images/delta-bottom.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	bottom: 0px;
+}
+
+.hero-slider-widget.bay .hero-slider:after {
+    background: url("/wp-content/themes/salient-child/images/bay-bottom.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.hero-slider-widget.dart .hero-slider:after {
+    background: url("/wp-content/themes/salient-child/images/dart-bottom.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.hero-slider-widget.x .hero-slider:after {
+    background: url("/wp-content/themes/salient-child/images/x-bottom.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.hero-slider-widget.home .hero-slider:after {
+    background: url("/wp-content/themes/salient-child/images/home-bottom.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.hero-slider-widget.hangry .hero-slider:after {
+    background: url("/wp-content/themes/salient-child/images/hang-bottom.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.hero-slider-widget.amber .hero-slider:after {
+    background: url("/wp-content/themes/salient-child/images/amber-bottom.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
 
 .hero-slider-widget .slide-item.hangry:before {
   background: radial-gradient(
@@ -3579,9 +3631,53 @@ body:not([data-header-format="left-header"]) #header-outer .sf-menu li ul {
 .has-global-section.no-gradient .section-food .row-bg.using-bg-color:before {
   content: none;
 }
-
+.has-global-section.has-bottom-gradient
+  .experience-row
+  .row-bg.viewport-desktop.using-bg-color:after {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 25%;
+  background: linear-gradient(0deg, #0037de, #0b1623);
+  bottom: 0;
+  left: 0;
+}
 .has-global-section .excitement-inner-col .disco .nectar-fancy-box .inner h2 {
   padding-top: 315px;
+}
+
+ul.f-menu.activity li:before {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background: url(/wp-content/themes/salient-child/images/f-arrow.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+ul.f-menu.activity li {
+    position: relative;
+    width: fit-content;
+}
+
+.book-online .date-and-time .con-picker:before {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 11px;
+    width: 10px;
+    height: 10px;
+    z-index: 10;
+    background: url(/wp-content/themes/salient-child/images/d-arr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.book-online .date-and-time .con-picker {
+    position: relative;
 }
 
 .pricing-tooltip-menu li.tooltip-menu-item img {
@@ -3708,6 +3804,58 @@ ul.pricing-menu-item li {
   }
 }
 @media screen and (min-width: 980px) {
+  #header-outer
+    nav
+    > ul
+    > .activity.megamenu.nectar-megamenu-menu-item
+    > .sub-menu,
+  #header-outer
+    nav
+    > ul
+    > .dining.megamenu.nectar-megamenu-menu-item
+    > .sub-menu,
+  #header-outer
+    nav
+    > ul
+    > .parties.megamenu.nectar-megamenu-menu-item
+    > .sub-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #header-outer
+    nav
+    > ul
+    > .activity.megamenu.nectar-megamenu-menu-item
+    > .sub-menu
+    .menu-title-text {
+    visibility: hidden;
+    width: 180px;
+  }
+  #header-outer
+    nav
+    > ul
+    > .dining.megamenu.nectar-megamenu-menu-item
+    > .sub-menu
+    .menu-title-text {
+    visibility: hidden;
+    height: 220px;
+  }
+
+  #header-outer
+    nav
+    > ul
+    > .parties.megamenu.nectar-megamenu-menu-item
+    > .sub-menu
+    .menu-title-text {
+    visibility: hidden;
+    height: 320px;
+  }
+
+  ul.sub-menu.tracked-pos {
+    border-radius: 15px;
+  }
+
   .hero-slider-widget .slide-item.kids-party .slide_inner {
     height: 93vh;
   }
@@ -3949,7 +4097,7 @@ ul.pricing-menu-item li {
   .nectar-flickity.nectar-carousel[data-column-padding="20px"] .inner-wrap {
     padding: 0 !important;
   }
-  .hero-slider-widget .slide-item:after {
+  .hero-slider-widget .hero-slider:after {
     width: 450px;
     height: 77px;
     bottom: -10px;
@@ -4643,9 +4791,10 @@ ul.pricing-menu-item li {
   .custom-slider.hero-slider a.learn-more {
     font-size: 13px;
   }
-  .hero-slider-widget .slide-item:after {
+  .hero-slider-widget .hero-slider:after {
     width: 330px;
     height: 53px;
+    bottom: -18px;
   }
   .wpb_content_element.pricing p {
     font-size: 16px;
