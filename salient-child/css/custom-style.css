@@ -1,0 +1,53 @@
+.slider-with-readmore-readless-btns .card {
+    position: relative;
+}
+
+.slider-with-readmore-readless-btns .content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slider-with-readmore-readless-btns .content-short {
+    max-height: 100px; /* Adjust this value to control the initial height */
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    position: relative;
+}
+
+.slider-with-readmore-readless-btns .content-full {
+    display: none;
+}
+
+.slider-with-readmore-readless-btns .content-overlay.expanded .content-short {
+    max-height: none; /* Expand to show full content */
+}
+
+.slider-with-readmore-readless-btns .button,
+.slider-with-readmore-readless-btns .read-more,
+.slider-with-readmore-readless-btns .content-less {
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* For the custom gallery slider having center slide very big */
+.tooltip-content {
+    display: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
